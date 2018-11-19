@@ -9,11 +9,10 @@
             "email": "lorenza.romano@infojuice.eu"
         }
     ],
-    "minimum-stability": "dev",
     "repositories": [
         {
-            "type": "vcs",
-            "url": "https://github.com/lorenza/helloworld"
+            "type": "git",
+            "url": "https://github.com/Lorenza/helloworld.git"
         }
     ],
     "require": {
