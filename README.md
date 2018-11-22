@@ -4,6 +4,7 @@ Composer test package
 To install the package from our dev.euregio.group repository, create a folder
 and a composer.json such as:
 
+```
 {
     "name": "lorenza/blog",
     "repositories": [
@@ -16,6 +17,7 @@ and a composer.json such as:
         "lorenza/hello-world": "dev-master"
     }
 }
+```
 
 ```
 composer install
@@ -24,6 +26,7 @@ composer install
 To install the package from github, create a folder and a composer.json file
 such as:
 
+```
 {
     "name": "lorenza/blog",
     "repositories": [
@@ -36,14 +39,17 @@ such as:
         "lorenza/hello-world": "dev-master"
     }
 }
+```
 
 ```
 composer install
 ```
 
+
 To install the package from a directory, create a folder and a composer.json
 file such as:
 
+```
 {
     "repositories": [
         {
@@ -55,6 +61,7 @@ file such as:
          "lorenza/hello-world": "dev-master"
     }
 }
+```
 
 ```
 composer install
