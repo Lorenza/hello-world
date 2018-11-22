@@ -16,9 +16,9 @@ and a composer.json such as:
         "lorenza/hello-world": "dev-master"
     }
 }
-
+'''
 composer install
-
+'''
 
 To install the package from github, create a folder and a composer.json file
 such as:
@@ -35,8 +35,9 @@ such as:
         "lorenza/hello-world": "dev-master"
     }
 }
-
+'''
 composer install
+'''
 
 To install the package from a directory, create a folder and a composer.json
 file such as:
@@ -52,9 +53,10 @@ file such as:
          "lorenza/hello-world": "dev-master"
     }
 }
-
+'''
 composer install
-
+'''
 
 phpunit tests (defined in phpunit.xml)
 vendor/bin/phpunit
+
