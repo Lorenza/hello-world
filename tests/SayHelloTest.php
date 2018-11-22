@@ -11,18 +11,17 @@ require_once __DIR__ . '/../vendor/autoload.php'; // Autoload files using Compos
 class SayHelloTest extends TestCase {
     public function testWorld()
     {
-        $this->assertInternalType('string', SayHello::world());        
+        $this->assertEquals("hello world, composer!", SayHello::world());
     }
+
     public function testUpperCaseWorld()
     {
-        $this->assertInternalType('string', SayHello::upperCaseWorld());        
+        $this->assertEquals('HELLO WORLD, COMPOSER!', SayHello::upperCaseWorld());
     }
 
     public function testUcwordsWorld()
     {
-        $this->assertInternalType('string', SayHello::upperCaseWorld());        
+        $this->assertEquals('Hello World, Composer!', SayHello::ucWordsWorld());
     }
 
 }
-
-
