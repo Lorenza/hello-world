@@ -1,7 +1,7 @@
 ## hello-world
 Composer test package
 
-To install the package from our dev.euregio.group repository, create a folder
+###### To install the package from our dev.euregio.group repository, create a folder
 and a composer.json such as:
 
 ```
@@ -23,7 +23,7 @@ and a composer.json such as:
 composer install
 ```
 
-To install the package from github, create a folder and a composer.json file
+###### To install the package from github, create a folder and a composer.json file
 such as:
 
 ```
@@ -46,7 +46,7 @@ composer install
 ```
 
 
-To install the package from a directory, create a folder and a composer.json
+###### To install the package from a directory, create a folder and a composer.json
 file such as:
 
 ```
@@ -69,4 +69,10 @@ composer install
 
 phpunit tests (defined in phpunit.xml)
 vendor/bin/phpunit
+
+###### To install a package from a zip file.
+Generate the zip file with 
+
+```
+git archive -o hello-world-zip
 
